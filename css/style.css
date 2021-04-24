@@ -1850,7 +1850,7 @@ footer .footerest .leftFooterest, footer .footerest .rightFooterest {
     padding: 18px 0 16px 0;
   }
 
-  footer .footerest div {
+  footer .footerest .leftFooterest, footer .footerest .rightFooterest {
     line-height: 153%;
     font-size: 12px;
   }
