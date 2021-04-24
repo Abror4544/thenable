@@ -69,12 +69,8 @@ $(function () {
 
   link.on('click', function (e) {
     e.preventDefault();
-
     let selector = $(this).addClass('active').attr('href');
     let target = $(selector);
-
     $('html, body').animate({ scrollTop: target.offset().top - 120 }, 1000);
-
-
   })
 })
